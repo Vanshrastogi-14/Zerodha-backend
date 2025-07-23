@@ -20,7 +20,7 @@ const jwt = require("jsonwebtoken");
 //   credentials: true
 // }));
 app.use(cors({
-    origin: ["http://localhost:3000","http://localhost:3001"],
+    origin: ["http://localhost:3000","https://zerodha-dashboard-1-hi7b.onrender.com"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   }));
